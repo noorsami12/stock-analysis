@@ -8,10 +8,12 @@ When it came to stock performance, the years 2017 and 2018 showcased a dramatic 
 ![2018_Stock_Performance](https://github.com/noorsami12/stock-analysis/blob/04d17a8f0d16238a597838a8f63bd9327ee79168/stock%20analysis%202018.png)
 #### Execution Times
 The execution time of the refactored code is significantly decreased. The original code ran in 0.59 seconds for 2017, while the refactored code ran in 0.09 seconds for 2017. For 2018, the original code was also 0.59 seconds while the refactored code was slightly less at 0.08 seconds. Overall, the refactored code was much faster than the original code. 
+
 ![OG_2017_Runtime](https://github.com/noorsami12/stock-analysis/blob/04d17a8f0d16238a597838a8f63bd9327ee79168/og%20code%202017%20time.png)
 ![2017_Runtime](https://github.com/noorsami12/stock-analysis/blob/04d17a8f0d16238a597838a8f63bd9327ee79168/Resources/VBA_Challenge_2017.png)
 ![OG_2018_Runtime](https://github.com/noorsami12/stock-analysis/blob/04d17a8f0d16238a597838a8f63bd9327ee79168/og%20code%202018%20time.png)
 ![2018_Runtime](https://github.com/noorsami12/stock-analysis/blob/04d17a8f0d16238a597838a8f63bd9327ee79168/Resources/VBA_Challenge_2018.png)
+
 The main area of difference in the refactored code was creating a tickerIndex that would connect across all four arrays used in the code to make the processes more efficient. 
 ```
 '1a) Create a ticker Index
@@ -60,7 +62,7 @@ The main area of difference in the refactored code was creating a tickerIndex th
          Next i
 ```
 ## Summary
-####Refactoring Code – Pros and Cons
+#### Refactoring Code – Pros and Cons
 Refactoring code can be incredibly advantageous when it comes to improving the speed and efficiency of a program. However, refactoring code can also be time-consuming and cause complications amidst the code that may not have been there before. For example, I ran into multiple instances of conflict between different variable types throughout refactoring, which was not a problem I faced while writing the original code. It would be easy to break the code and ruin the data because of issues like this. When it comes to refactoring code, we need to weigh the pros and cons and make sure that the end result is worth it. In this case, an almost .5 second speed decrease in the runtime seems worth it to me! 
-####Original vs. Refactored VBA script
+#### Original vs. Refactored VBA script
 The original VBA script I wrote was overall shorter and quicker to write. It contained less variables and might be less confusing for another programmer to look at and work with. The refactored VBA script runs more efficiently and will be an asset when it comes to analyzing larger datasets. However, the code itself was longer and more time-consuming and may not be as intuitive to the outside eye. 
