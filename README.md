@@ -4,6 +4,7 @@ For the purpose of this project, I worked on analyzing stock performance through
 ## Results
 #### Stock Performance
 When it came to stock performance, the years 2017 and 2018 showcased a dramatic difference. In 2017, we see almost entirely positive returns, while in 2018, the returns were almost entirely negative. 2017 saw DQ at an almost 200% return rate while in 2018, DQ had a -62% return. 
+
 ![2017_Stock_Performance](https://github.com/noorsami12/stock-analysis/blob/04d17a8f0d16238a597838a8f63bd9327ee79168/stock%20analysis%202017.png)
 ![2018_Stock_Performance](https://github.com/noorsami12/stock-analysis/blob/04d17a8f0d16238a597838a8f63bd9327ee79168/stock%20analysis%202018.png)
 #### Execution Times
